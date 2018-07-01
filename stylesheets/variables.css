@@ -1,0 +1,38 @@
+:root {
+  --global-font-family:                            "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --global-font-size:                              16px;
+  --global-line-height:                            1.63;
+  --global-headings-font-family:                   "Quattrocento Sans", "Open Sans"-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  --global-color:                                  #8d8f92;
+  --global-muted-color:                            #a4aead;
+  --global-primary-color:                          #23b7a4;
+
+  --global-link-color:                             #a4aead;
+  --global-link-hover-border-color:                #5b6168;
+  --global-link-active-border-color:               #23b7a4;
+
+  --global-inverse-color:                          #fff;
+
+  --global-background:                             #fff;
+  --global-background-inverse:                     #3a454d;
+
+  --global-muted-background:                       #f8f8f8;
+  --global-primary-background:                     #1e87f0;
+  --global-secondary-background:                   #222;
+
+  --global-success-background:                     #32d296;
+  --global-warning-background:                     #faa05a;
+  --global-danger-background:                      #f0506e;
+
+  --global-border-width:                           1px;
+  --global-border:                                 #ffffff;
+
+  --global-margin:                                 20px;
+
+  --global-gutter:                                 30px;
+
+  --global-control-height:                         40px;
+}
+
+

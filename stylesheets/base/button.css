@@ -1,0 +1,95 @@
+:root {
+  --button-color: #fff;
+  --button-background: none;
+  --button-border: 1px solid #fff;
+  --button-font-family: inherit;
+  --button-font-size: var(--global-font-size);
+  --button-font-weight: normal;
+  --button-padding: 6px 14px;
+  --button-height: var(--global-control-height);
+
+
+
+  --button-color-hover: #fff;
+  --button-background-hover: #23b7a4;
+  --button-border: 1px solid #23b7a4;
+
+  --button-color-focus: #fff;
+  --button-background-focus: #23b7a4;
+
+  --button-color-active: #fff;
+  --button-background-active: #23b7a4;
+}
+
+
+button,
+input[type="button"],
+input[type="submit"],
+.button {
+  margin: 0;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 2px solid #fff;
+  user-select: none;
+  border-radius: 4px;
+  overflow: visible;
+  font: inherit;
+  text-transform: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--button-padding);
+  font-family: var(--button-font-family);
+  font-size: var(--button-font-size);
+  min-height: var(--button-height);
+  text-decoration: none;
+  background: var(--button-background);
+  color: var(--button-color);
+  text-transform: uppercase;
+}
+
+.button:not(:disabled) {
+  cursor: pointer
+}
+
+.button::-moz-focus-inner {
+  border: 0;
+  padding: 0
+}
+
+.button:hover {
+  border: 2px solid var(--button-background-hover);
+  text-decoration: none;
+  background: var(--button-background-hover);
+  color: var(--button-color-hover);
+}
+
+.button:focus {
+  outline: none;
+  background: var(--button-background-focus);
+  color: var(--button-color-focus);
+}
+
+.button:active,
+.button.is-active {
+  background: var(--button-background-active);
+  color: var(--button-color-active);
+}
+
+.button:disabled {
+  pointer-events: none;
+  opacity: 0.45;
+}
+.form-button-contacts {
+  background-color: var(--button-background-hover);
+  border: 2px solid var(--button-background-hover);
+  padding: 10px 24px;
+  border-radius: 6px;
+  margin-top: 30px;
+}
+.form-button-contacts:hover {
+  background-color: #3a454d;
+   border: 2px solid #3a454d;
+   color: #fff;
+}

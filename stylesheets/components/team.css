@@ -1,0 +1,77 @@
+.description-team {
+	background-color: #e1e6ea;
+	padding: 20px;
+	margin-bottom: 100px;
+}
+.card-team:hover .description-team {
+	background-color: #3a454d;
+}
+.title-team,
+.subtitle-team {
+	margin: 0;
+}
+.google-svg > svg {
+	fill: #fff;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    position: relative;
+}
+.card-item {
+	position: relative;
+}
+.social-team-block {
+	background-color: #e5e9eb;
+	position: absolute;
+	width: 100%;
+    height: 100%;
+    top: 0;
+	left: 0;
+	opacity: 0;
+}
+.social-icon-block {
+	display: flex;
+	position: absolute;
+	top: 79px;
+	left: 20px;
+}
+.social-icon {
+	width: 50px;
+	height: 50px;
+	background-color: #3a454d;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 1px;
+	opacity: 0;
+	
+}
+.social-icon-link {
+	color: #fff;
+}
+.card-team:hover .social-team-block {
+	opacity: 0.6;
+	z-index: 1;
+}
+.card-team:hover .social-icon {
+	opacity: 1;
+	z-index: 2;
+}
+.social-icon:hover {
+	background-color: #4e5a62;
+	cursor: pointer;
+}
+.social-icon-link:hover {
+	color: #fff;
+}
+.card-team > .subtitle-team {
+	color: #8d8f92;
+}
+.card-team:hover 
+.title-team  {
+	color: #fff;
+}
+.card-team:hover 
+.subtitle-team {
+	color: #fff;
+}

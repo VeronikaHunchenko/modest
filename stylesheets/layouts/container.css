@@ -1,0 +1,129 @@
+.container {
+  max-width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container .container {
+  padding-left: 0;
+  padding-right: 0
+}
+
+.container-expand {
+  max-width: none
+}
+.header {
+	background-color: #1d2126;
+}
+.layout-header {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 28px;
+}
+.layout-about {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px 0;
+}
+.layout-about > .layout-item:first-child {
+  max-width: 655px;
+  padding-right: 35px;
+  margin-bottom: 70px;
+} 
+.layout-about > .layout-item:last-child {
+  max-width: 455px;
+  margin-top: 174px;
+  margin-bottom: 70px;
+}
+.grid-team {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.grid-team > .grid-item {
+  margin-right: 30px;
+  width: calc(100% / 4);
+}
+.grid-team > .grid-item:last-child {
+  margin-right: 0;
+}
+.gallery {
+  background-color: #3a454d;
+  padding-top: 50px
+}
+.layout-gallery > .layout-item:last-child {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+.grid-gallery {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.grid-gallery > .card-gallery {
+  padding: 10px;
+  width: calc(100% / 3);
+}
+.layout-specification {
+  padding-top: 40px;
+}
+.grid-specification {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.grid-specification > .grid-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  align-items: flex-start;
+}
+
+.grid-specification > .grid-item:last-child {
+  margin-bottom: 100px;
+}
+.featufer {
+  background-color: #3a454d;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.grid-features {
+  display: flex;
+  justify-content: space-between;
+}
+.grid-features > .grid-item {
+  width: calc(100% / 3);
+}
+.layout-contacts {
+  display: flex;
+
+}
+.layout-contacts > .layout-item {
+  width: calc(100% / 2);
+}
+.layout-contacts > .layout-item:first-child {
+  margin-top: 60px;
+}
+
+.footer {
+  background-color: #3a454d;
+
+}
+.layout-footer {
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 5px;
+  color: #fff;
+  font-size: 14px;
+}
+.layout-footer > .layout-item {
+  width: calc(100% / 2);
+}

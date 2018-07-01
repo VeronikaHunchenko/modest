@@ -1,0 +1,27 @@
+.map-contacts {
+	width: 100%;
+}
+.form-section-contacts {
+	margin-top: -129px;
+	background-color: #fff;
+	padding: 30px;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.textarea-section > p {
+	margin: 0 0 10px 0;
+}
+.section-personal-contacts {
+	display: flex;
+	align-items: flex-start;
+}
+.input-section {
+	padding-right: 10px;
+	margin-bottom: 30px;
+}
+.input-section:last-chid {
+	padding-right: 0;
+}
+.input-section > input {
+	margin: 10px 0 0 0;
+}

@@ -1,0 +1,49 @@
+.hero {
+    position: relative;
+    overflow: hidden;
+} 
+.hero-background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.hero-foreground {
+    position: relative;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.hero-slider-item {
+	max-width: 738px;
+	min-height: 185px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.slick-buttons {
+	position: absolute;
+	left: 1086px;
+	top: 394px;
+}
+.slick-button {
+	width: 9px;
+	height: 9px;
+	background-color: transparent;
+	border: 2px solid #fff;
+	border-radius: 9px;
+	margin: 8px;
+	display: inline-block;
+	cursor: pointer;
+}
+.slick-button:hover {
+	background-color: #fff;
+}
+.hero-slider-item > .button {
+	margin-right: 15px;
+}
+.hero-slider-item > p {
+	padding: 20px 0;
+}

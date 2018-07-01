@@ -1,0 +1,14 @@
+.card-features {
+	margin: 5px;
+	padding-right: 20px;;
+	color: #dcdfe1;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.card-features > h4 {
+	color: #ffffff;
+}
+.card-features > img {
+	padding-bottom: 50px;
+}

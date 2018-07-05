@@ -40,15 +40,12 @@
 }
 .grid-team {
   display: flex;
-  justify-content: space-between;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 .grid-team > .grid-item {
   margin-right: 30px;
-  width: calc(100% / 4);
-}
-.grid-team > .grid-item:last-child {
-  margin-right: 0;
+  width: calc(100% / 4 - 30px);
 }
 .gallery {
   background-color: #3a454d;
@@ -62,9 +59,11 @@
 }
 .grid-gallery {
   display: flex;
-  justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
+}
+.grid.grid-gallery > * {
+  width: 33,33333%;
 }
 .grid-gallery > .card-gallery {
   padding: 10px;

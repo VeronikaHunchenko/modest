@@ -1,3 +1,4 @@
+
 .description-team {
 	background-color: #e1e6ea;
 	padding: 20px;
@@ -32,8 +33,10 @@
 .social-icon-block {
 	display: flex;
 	position: absolute;
-	top: 79px;
-	left: 20px;
+	top: 50%;
+	left: 44%;
+	transform: translate(-50%, -50%);
+	z-index: 3;
 }
 .social-icon {
 	width: 50px;
@@ -63,6 +66,9 @@
 }
 .social-icon-link:hover {
 	color: #fff;
+}
+.card-team img {
+	width: 100%;
 }
 .card-team > .subtitle-team {
 	color: #8d8f92;

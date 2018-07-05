@@ -1,5 +1,10 @@
+/* Проблема, если я их делаю такими чтоб вытащив из блока они были отдельным 
+элементом, растягивались, а не оставались маленькими, то в блоке если я ставлю картинку 
+с другими праваметрами, она не занимает все пространство которое 
+задано под карточку */
 .images-gallery-block {
 	position: relative;
+	height: 235px;
 }
 .slide-gallery-block {
 	position: absolute;
@@ -15,8 +20,15 @@
 	z-index: 10;
 	position: absolute;
 	opacity: 0;
-	top: 80px;
-	left: 165px;
+	top: 38%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.card-gallery img {
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100%;
 }
 .text-gallery-block {
 	position: absolute;

@@ -5,7 +5,7 @@
   --button-font-family: inherit;
   --button-font-size: var(--global-font-size);
   --button-font-weight: normal;
-  --button-padding: 6px 14px;
+  --button-padding: 7px 20px;
   --button-height: var(--global-control-height);
 
 
@@ -41,12 +41,12 @@ input[type="submit"],
   justify-content: center;
   padding: var(--button-padding);
   font-family: var(--button-font-family);
-  font-size: var(--button-font-size);
   min-height: var(--button-height);
   text-decoration: none;
   background: var(--button-background);
   color: var(--button-color);
   text-transform: uppercase;
+  font-size: 14px;
 }
 
 .button:not(:disabled) {
